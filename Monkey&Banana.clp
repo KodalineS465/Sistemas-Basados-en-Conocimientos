@@ -1,0 +1,15 @@
+(deffacts MAIN::estado-inicial
+   (pasos (create$ mono-ve-banana))
+   (mono sobre piso)
+   (mono esta hambriento)
+   (mono lejos silla)
+   (mono lejos escritorio)
+   (banana colgada-en techo)
+   (banana con cascara)
+   (silla sobre piso)
+   (silla lejos escritorio)
+   (silla es ligera)
+   (escritorio sobre piso)
+   (escritorio no-debajo banana)
+   (escritorio es pesado))
+
